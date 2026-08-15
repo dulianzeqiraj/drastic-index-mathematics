@@ -2,32 +2,42 @@
 
 Shënim pune për autorët, jo pjesë e depozitimit. Fshihet ose lihet, si të duash.
 
-## Para se të publikohet, dy vendime
+## Vendimet e marra (15 gusht 2026)
 
-1. **Licenca e të dhënave.** `data/` mban produkte të nxjerra nga raporti
-   zyrtar kombëtar 2024 dhe nga të dhënat e rrjetit kombëtar të raportuara në
-   Eionet. Kodi është MIT; të dhënat nuk mbulohen nga MIT. Duhet konfirmim nga
-   institucionet zotëruese se rishpërndarja lejohet dhe me çfarë kushtesh. Nëse
-   nuk konfirmohet në kohë, publiko vetëm `matlab/` dhe `results/`, hiq `data/`
-   nga commit-i dhe shto një rresht te README se të dhënat jepen me kërkesë.
-2. **Momenti.** Një DOI Zenodo është i përhershëm dhe publik. Nëse revista
-   kërkon recensim të verbër, repoja publike me emrat e autorëve e prish atë.
-   Zgjidhja e zakonshme: repo private tani, publike në momentin e pranimit, ose
-   Zenodo me akses të kufizuar deri në botim.
+1. **Të dhënat publikohen bashkë me kodin.** D. Zeqiraj konfirmoi se leja për
+   rishpërndarjen e shtresave të nxjerra ekziston. Kodi është MIT, të dhënat
+   CC BY 4.0, me atribuimin e shkruar te `data/README.md`.
+2. **Publike tani, me DOI.** Jo private deri në pranim. Pasoja për t'u mbajtur
+   parasysh: nëse revista kërkon recensim të verbër, repoja publike me emrat e
+   autorëve e prish atë; nëse revista e synuar e kërkon, kthehu te ky vendim
+   para dorëzimit.
 
 ## GitHub
 
-Repoja lokale është gati dhe e commit-uar. `gh` nuk është i instaluar në këtë
-makinë, kështu që krijoje repon nga faqja e GitHub-it (ose instalo `gh`), pastaj:
+Repoja lokale është gati dhe e commit-uar (branch `main`, një commit).
 
-```bash
-git remote add origin https://github.com/dulianzeqiraj-ops/drastic-index-mathematics.git
-git branch -M main
-git push -u origin main
+GitHub CLI u instalua me `winget install --id GitHub.cli --exact`. Hapi i vetëm
+që kërkon ty është autentikimi, sepse hap shfletuesin:
+
+```
+gh auth login
 ```
 
-Nëse e do private në fillim, zgjidh "Private" kur e krijon; kalimi në publike
-më vonë bëhet me një klikim te Settings.
+Zgjidh GitHub.com, pastaj HTTPS, pastaj "Login with a web browser": të jep një
+kod njëpërdorimësh dhe hap faqen ku e ngjit. Pas kësaj, krijimi i repos dhe
+ngarkimi bëhen me një komandë të vetme nga rrënja e repos:
+
+```
+gh repo create drastic-index-mathematics --public --source=. --remote=origin --push
+```
+
+Rruga pa `gh`, nëse autentikimi nuk ecën: krijo repon bosh te github.com/new
+(pa README, pa .gitignore, pa licencë, se i ka tashmë), pastaj
+
+```
+git remote add origin https://github.com/dulianzeqiraj/drastic-index-mathematics.git
+git push -u origin main
+```
 
 ## Zenodo
 
@@ -39,7 +49,14 @@ vetvetiu nga një release dhe të përditësohet me çdo version:
    `drastic-index-mathematics`. (Kjo kërkon autorizim OAuth në llogarinë tënde,
    prandaj duhet ta bësh vetë.)
 3. Në GitHub krijo një release me tag `v1.0.0` dhe titull
-   "MATLAB reproduction package v1.0.0".
+   "MATLAB reproduction package v1.0.0". Me `gh` bëhet nga rrënja e repos:
+
+   ```
+   gh release create v1.0.0 --title "MATLAB reproduction package v1.0.0" --notes "First release: reproduces every statistical, geometric and decision result of the manuscript from the archived inputs. Determinism verified over two full runs."
+   ```
+
+   Kujdes me radhën: çelësi i Zenodo-s duhet ndezur PARA se të krijohet
+   release-i, se Zenodo kap vetëm release-t që vijnë pas lidhjes.
 4. Zenodo e arkivon vetë dhe lëshon DOI-në. Metadatat merren nga `.zenodo.json`
    që gjendet në repo, pra titulli, përshkrimi, autorët dhe fjalët kyçe janë
    tashmë të plotësuara.
@@ -56,5 +73,6 @@ Tri vende ku duhet vendosur numri:
 
 - `CITATION.cff`, fusha `doi`
 - README, stema në krye
-- Dorëshkrimi: "Data availability" dhe Shtojca C.3, ku tani është
-  [AUTHOR DECISION: deposit target].
+- Dorëshkrimi `Artikulli_3_TEORIA.md`: te "Data availability" dhe te Shtojca
+  C.3, ku tani shkruan `[AUTHOR ACTION: DOI]` dhe
+  `[AUTHOR ACTION: insert the DOI once the release is minted]`.

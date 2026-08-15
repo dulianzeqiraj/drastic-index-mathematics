@@ -10,7 +10,7 @@ authors:
     affiliation: "Polytechnic University of Tirana"
 version: "1.0.0"
 date-released: "2026-08-15"
-repository-code: "https://github.com/dulianzeqiraj-ops/drastic-index-mathematics"
+repository-code: "https://github.com/dulianzeqiraj/drastic-index-mathematics"
 license: MIT
 keywords:
   - DRASTIC
