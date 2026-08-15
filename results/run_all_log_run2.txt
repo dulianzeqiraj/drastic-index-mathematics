@@ -1,0 +1,99 @@
+﻿    ----------------------------------------------------
+	Your license will expire in 2 days.
+	Please contact your system administrator or
+	go to MathWorks.com to renew this license.
+    ----------------------------------------------------
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+setup_data: all 8 grids already expanded.
+m01: loading the seven recovered score layers...
+                   qeliza: 2741908
+                      km2: 2.7419e+04
+    max_abs_diff_vs_SAKTE: 0.0050
+                   di_min: 39
+                   di_max: 204.0500
+      vlera_te_dallueshme: 644
+       pjeset_klasave_pct: [7.4700 49.4100 11.9800 25.1300 6.0100]
+          qeliza_mbi_prag: 300
+            profile_unike: 13566
+
+m01 done.
+singular values: [428.498 373.035 284.894 277.739 258.229 223.462 167.065]
+        profile_unike: 13566
+          sv_kombetar: [428.4980 373.0350 284.8940 277.7390 258.2290 223.4620 167.0650]
+        rang_kombetar: 7
+      ev_footprint_62: [10.2828 3.4833 1.6345 1.1440 0.7322 0.0421 4.0000e-04]
+         ev_aluvional: [7.2413 1.7054 1.1980 0.7427 0.3312 0 0]
+       rang_aluvional: 5
+              kernel1: [0 -0.3500 -0.3300 0 0 -0.0200 0.8800]
+              kernel2: [0 0.5700 -0.8200 0 0 0.0400 -0.0800]
+          max_C_per_A: 8
+          max_R_per_A: 6
+         pct_modal_AC: 97.9000
+           hiperplane: 49547
+      zaslavsky_log10: 25.3100
+     profile_mbi_prag: 3
+         km2_mbi_prag: 3
+    marzh_min_pozitiv: 0.0050
+    marzh_median_pond: 7.0500
+       marzh_mes_pond: 7.7100
+
+m02 done.
+n=62; points per family: [59 0 1 2]
+chain 1: 1600 draws, 19 s
+chain 2: 1600 draws, 17 s
+chain 3: 1600 draws, 18 s
+chain 4: 1600 draws, 16 s
+R-hat max: 1.011
+aluvional medians: [2.9 4.25 3.57 1.17 3.64 2.11 3.48]
+karbonatik medians: [2.86 2.92 2.42 2.53 2.03 4.21 2.33]
+magmatik medians: [2.88 2.89 2.34 2.72 1.92 4.82 2.21]
+flish_argjile medians: [3.22 2.58 2.05 3.15 1.68 5.18 1.9]
+sigma: 6.83 [5.68, 8.45]
+CV RMSE 7.11 vs sd(y_al) 6.54
+m03 done.
+deployment step (3000 draws x 13566 combinations): 0.65 s
+                               draws: 3000
+                          P_mesatare: 0.7130
+                         mbi_090_pct: 9.6000
+                         nen_070_pct: 47.5000
+    modal_ndryshe_nga_konsensusi_pct: 14.9000
+                   nen_070_aluvional: 68.5000
+         modal_ndryshe_aluvional_pct: 48.1000
+                  nen_070_karbonatik: 95.2000
+                    nen_070_magmatik: 36
+               nen_070_flish_argjile: 24
+                 harta_te_dallueshme: 3000
+            paqendrueshmeria_mes_pct: 38.2000
+                paqendrueshmeria_iqr: [27.5000 47.8000]
+                  shkelje_kufiri_pct: 0
+                        spearman_raw: 0.6540
+              spearman_standardizuar: 0.8840
+
+m04 done.
+delta=1: c=[54.755 87.275 123.275 158.3]  marzh=0.2250  shift=0.45  pjeset=[7.47 48.96 12.31 25.23 6.04]
+delta=2: c=[54.755 87.275 122.275 155.3]  marzh=0.2250  shift=0.68  pjeset=[7.47 48.96 11.45 25.44 6.69]
+delta=5: c=[51.755 83.275 120.275 155.3]  marzh=0.2250  shift=2.31  pjeset=[5.15 49.47 12.16 26.53 6.69]
+m05 done.
+base undecided: [0.685 0.952 0.36 0.24]
+  karbonatik rep 1: 0.952 -> 0.963
+  karbonatik rep 2: 0.952 -> 0.921
+  karbonatik rep 3: 0.952 -> 0.895
+karbonatik +10 stations: mean reduction 2.5 pp
+  flish_argjile rep 1: 0.240 -> 0.152
+  flish_argjile rep 2: 0.240 -> 0.109
+  flish_argjile rep 3: 0.240 -> 0.129
+flish_argjile +10 stations: mean reduction 11.0 pp
+  aluvional rep 1: 0.685 -> 0.357
+  aluvional rep 2: 0.685 -> 0.291
+aluvional +10 stations: mean reduction 36.1 pp
+m06 done.
+fig1 written
+fig2 written: 50 gray segments from 28 sampled profiles, 3 on-threshold lines in red
+fig3 written
+m07 done.
+results/matlab_verifikimi.json written
+
+STAGE TIMINGS (s): m01 17.0 | m02 0.2 | m03 100.1 | m04 1.7 | m05 2.5 | m06 59.6 | m07 45.0
+total 227 s

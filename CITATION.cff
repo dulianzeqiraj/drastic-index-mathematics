@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "The mathematics of an index method: MATLAB reproduction package for groundwater vulnerability assessment as measurement, structure, geometry, inference, and decision"
+authors:
+  - family-names: "Beqiraj"
+    given-names: "Arjan"
+    affiliation: "Polytechnic University of Tirana"
+  - family-names: "Zeqiraj"
+    given-names: "Dulian"
+    affiliation: "Polytechnic University of Tirana"
+version: "1.0.0"
+date-released: "2026-08-15"
+repository-code: "https://github.com/dulianzeqiraj-ops/drastic-index-mathematics"
+license: MIT
+keywords:
+  - DRASTIC
+  - groundwater vulnerability
+  - index methods
+  - conjoint measurement
+  - hyperplane arrangements
+  - identifiability
+  - hierarchical Bayes
+  - preposterior analysis
+  - Albania
+references:
+  - type: article
+    title: "The mathematics of an index method: groundwater vulnerability assessment as measurement, structure, geometry, inference, and decision"
+    authors:
+      - family-names: "Beqiraj"
+        given-names: "Arjan"
+      - family-names: "Zeqiraj"
+        given-names: "Dulian"
+    notes: "The manuscript this package reproduces. [AUTHOR DECISION: journal, year and DOI once known.]"
+  - type: article
+    title: "DRASTIC: A standardized system for evaluating ground water pollution potential using hydrogeologic settings"
+    authors:
+      - family-names: "Aller"
+        given-names: "Linda"
+      - family-names: "Bennett"
+        given-names: "Truman"
+      - family-names: "Lehr"
+        given-names: "Jay H."
+      - family-names: "Petty"
+        given-names: "Rebecca J."
+      - family-names: "Hackett"
+        given-names: "Glen"
+    year: 1987
+    notes: "Report EPA/600/2-87/035, U.S. Environmental Protection Agency, Ada, OK. The method analysed here."

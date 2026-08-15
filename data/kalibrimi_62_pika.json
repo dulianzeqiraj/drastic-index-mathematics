@@ -1,0 +1,1070 @@
+[
+ {
+  "id": "P3",
+  "lloji": "pus_FK",
+  "no3": 2.21,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "P4",
+  "lloji": "pus_FK",
+  "no3": 1.665,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "P12",
+  "lloji": "pus_FK",
+  "no3": 8.155,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "P13",
+  "lloji": "pus_FK",
+  "no3": 4.315,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "P17",
+  "lloji": "pus_FK",
+  "no3": 2.1,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "P19",
+  "lloji": "pus_FK",
+  "no3": 5.4,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "P20",
+  "lloji": "pus_FK",
+  "no3": 12.55,
+  "se_no3": null,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "P21",
+  "lloji": "pus_FK",
+  "no3": 8.54,
+  "se_no3": null,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "R8",
+  "lloji": "pus_FK",
+  "no3": 7.05825359999997,
+  "se_no3": null,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "R12",
+  "lloji": "pus_FK",
+  "no3": 4.15,
+  "se_no3": null,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "R13",
+  "lloji": "pus_FK",
+  "no3": 22.27,
+  "se_no3": null,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "R16",
+  "lloji": "pus_FK",
+  "no3": 24.74,
+  "se_no3": null,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A3",
+  "lloji": "pus_FK",
+  "no3": 3.1,
+  "se_no3": null,
+  "rates": {
+   "D": 6.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A4",
+  "lloji": "pus_FK",
+  "no3": 1.4,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A10",
+  "lloji": "pus_FK",
+  "no3": 3.4,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A11",
+  "lloji": "pus_FK",
+  "no3": 5.3,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A12",
+  "lloji": "pus_FK",
+  "no3": 1.38,
+  "se_no3": null,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A13",
+  "lloji": "pus_FK",
+  "no3": 5.0,
+  "se_no3": null,
+  "rates": {
+   "D": 6.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A14",
+  "lloji": "pus_FK",
+  "no3": 15.0,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A17",
+  "lloji": "pus_FK",
+  "no3": 5.98,
+  "se_no3": null,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A18",
+  "lloji": "pus_FK",
+  "no3": 4.15,
+  "se_no3": null,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A21",
+  "lloji": "pus_FK",
+  "no3": 15.2,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A23",
+  "lloji": "pus_FK",
+  "no3": 3.72,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 6.025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "A25",
+  "lloji": "pus_FK",
+  "no3": 6.7,
+  "se_no3": null,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_101",
+  "lloji": "stacion",
+  "no3": 9.46,
+  "se_no3": 1.298,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 8,
+  "water_body": "SHKODER",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_102",
+  "lloji": "stacion",
+  "no3": 3.43,
+  "se_no3": 1.045,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "SHKODER",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_201",
+  "lloji": "stacion",
+  "no3": 0.6,
+  "se_no3": 0.286,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "FUSHE KUQE-LEZHE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_202",
+  "lloji": "stacion",
+  "no3": 0.81,
+  "se_no3": 0.177,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "FUSHE KUQE-LEZHE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_203",
+  "lloji": "stacion",
+  "no3": 0.63,
+  "se_no3": 0.247,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "FUSHE KUQE-LEZHE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_204",
+  "lloji": "stacion",
+  "no3": 0.81,
+  "se_no3": 0.296,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "FUSHE KUQE-LEZHE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_205",
+  "lloji": "stacion",
+  "no3": 1.71,
+  "se_no3": 0.609,
+  "rates": {
+   "D": 1.0,
+   "R": 9.0,
+   "A": 10.0,
+   "S": 6.025,
+   "T": 5.0,
+   "I": 10.0,
+   "C": 10.0
+  },
+  "n_mostra": 9,
+  "water_body": "FUSHE KUQE-LEZHE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_206",
+  "lloji": "stacion",
+  "no3": 3.22,
+  "se_no3": 0.611,
+  "rates": {
+   "D": 6.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "FUSHE KUQE-LEZHE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_207",
+  "lloji": "stacion",
+  "no3": 1.62,
+  "se_no3": 0.264,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "FUSHE KUQE-LEZHE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_209",
+  "lloji": "stacion",
+  "no3": 3.34,
+  "se_no3": 0.276,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "FUSHE KUQE-LEZHE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_301",
+  "lloji": "stacion",
+  "no3": 4.45,
+  "se_no3": 0.295,
+  "rates": {
+   "D": 2.0,
+   "R": 6.0,
+   "A": 8.0,
+   "S": 4.5025,
+   "T": 8.0,
+   "I": 8.0,
+   "C": 8.0
+  },
+  "n_mostra": 9,
+  "water_body": "ELBASAN-LUSHNJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_302",
+  "lloji": "stacion",
+  "no3": 2.48,
+  "se_no3": 0.156,
+  "rates": {
+   "D": 6.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "ELBASAN-LUSHNJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_303",
+  "lloji": "stacion",
+  "no3": 7.99,
+  "se_no3": 2.361,
+  "rates": {
+   "D": 2.0,
+   "R": 3.0,
+   "A": 3.0,
+   "S": 4.5025,
+   "T": 1.0,
+   "I": 3.0,
+   "C": 2.0
+  },
+  "n_mostra": 9,
+  "water_body": "ELBASAN-LUSHNJE",
+  "familja": "flish_argjile"
+ },
+ {
+  "id": "ALGW_304",
+  "lloji": "stacion",
+  "no3": 4.8,
+  "se_no3": 0.704,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "ELBASAN-LUSHNJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_305",
+  "lloji": "stacion",
+  "no3": 0.76,
+  "se_no3": 0.172,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "ELBASAN-LUSHNJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_306",
+  "lloji": "stacion",
+  "no3": 0.42,
+  "se_no3": 0.149,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 1.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "ELBASAN-LUSHNJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_401",
+  "lloji": "stacion",
+  "no3": 11.86,
+  "se_no3": 0.662,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "TIRANE-FUSHE KRUJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_402",
+  "lloji": "stacion",
+  "no3": 20.57,
+  "se_no3": 0.955,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "TIRANE-FUSHE KRUJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_403",
+  "lloji": "stacion",
+  "no3": 11.84,
+  "se_no3": 1.318,
+  "rates": {
+   "D": 6.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "TIRANE-FUSHE KRUJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_404",
+  "lloji": "stacion",
+  "no3": 15.47,
+  "se_no3": 2.809,
+  "rates": {
+   "D": 6.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "TIRANE-FUSHE KRUJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_405",
+  "lloji": "stacion",
+  "no3": 5.75,
+  "se_no3": 1.816,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "TIRANE-FUSHE KRUJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_406",
+  "lloji": "stacion",
+  "no3": 11.41,
+  "se_no3": 2.193,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "TIRANE-FUSHE KRUJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_407",
+  "lloji": "stacion",
+  "no3": 23.08,
+  "se_no3": 1.419,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "TIRANE-FUSHE KRUJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_408",
+  "lloji": "stacion",
+  "no3": 22.81,
+  "se_no3": 1.204,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "TIRANE-FUSHE KRUJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_409",
+  "lloji": "stacion",
+  "no3": 11.81,
+  "se_no3": 1.508,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "TIRANE-FUSHE KRUJE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_501",
+  "lloji": "stacion",
+  "no3": 4.69,
+  "se_no3": 0.916,
+  "rates": {
+   "D": 1.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "KORCA",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_502",
+  "lloji": "stacion",
+  "no3": 6.4,
+  "se_no3": 0.514,
+  "rates": {
+   "D": 1.0,
+   "R": 6.0,
+   "A": 6.0,
+   "S": 6.025,
+   "T": 3.0,
+   "I": 6.0,
+   "C": 5.0
+  },
+  "n_mostra": 9,
+  "water_body": "KORCA",
+  "familja": "magmatik"
+ },
+ {
+  "id": "ALGW_503",
+  "lloji": "stacion",
+  "no3": 19.08,
+  "se_no3": 2.275,
+  "rates": {
+   "D": 1.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "KORCA",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_504",
+  "lloji": "stacion",
+  "no3": 5.73,
+  "se_no3": 1.892,
+  "rates": {
+   "D": 1.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 4.5025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "KORCA",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_601",
+  "lloji": "stacion",
+  "no3": 5.13,
+  "se_no3": 1.055,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "VLORE -GJIROKASTER",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_602",
+  "lloji": "stacion",
+  "no3": 1.69,
+  "se_no3": 0.353,
+  "rates": {
+   "D": 1.0,
+   "R": 6.0,
+   "A": 8.0,
+   "S": 6.025,
+   "T": 1.0,
+   "I": 8.0,
+   "C": 8.0
+  },
+  "n_mostra": 9,
+  "water_body": "VLORE -GJIROKASTER",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_603",
+  "lloji": "stacion",
+  "no3": 1.53,
+  "se_no3": 0.156,
+  "rates": {
+   "D": 2.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "VLORE -GJIROKASTER",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_604",
+  "lloji": "stacion",
+  "no3": 1.21,
+  "se_no3": 0.171,
+  "rates": {
+   "D": 1.0,
+   "R": 3.0,
+   "A": 3.0,
+   "S": 6.025,
+   "T": 3.0,
+   "I": 3.0,
+   "C": 2.0
+  },
+  "n_mostra": 9,
+  "water_body": "VLORE -GJIROKASTER",
+  "familja": "flish_argjile"
+ },
+ {
+  "id": "ALGW_605",
+  "lloji": "stacion",
+  "no3": 1.76,
+  "se_no3": 0.429,
+  "rates": {
+   "D": 1.0,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 3.0025,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 5,
+  "water_body": "VLORE -GJIROKASTER",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_801",
+  "lloji": "stacion",
+  "no3": 1.8,
+  "se_no3": 0.181,
+  "rates": {
+   "D": 1.0,
+   "R": 9.0,
+   "A": 10.0,
+   "S": 7.525,
+   "T": 1.0,
+   "I": 10.0,
+   "C": 10.0
+  },
+  "n_mostra": 9,
+  "water_body": "SARANDE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_802",
+  "lloji": "stacion",
+  "no3": 2.01,
+  "se_no3": 0.294,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 7.525,
+   "T": 10.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "SARANDE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_803",
+  "lloji": "stacion",
+  "no3": 2.46,
+  "se_no3": 0.301,
+  "rates": {
+   "D": 3.5,
+   "R": 8.0,
+   "A": 9.0,
+   "S": 9.025,
+   "T": 5.0,
+   "I": 2.0,
+   "C": 9.0
+  },
+  "n_mostra": 9,
+  "water_body": "SARANDE",
+  "familja": "aluvional"
+ },
+ {
+  "id": "ALGW_804",
+  "lloji": "stacion",
+  "no3": 3.42,
+  "se_no3": 0.402,
+  "rates": {
+   "D": 3.5,
+   "R": 6.0,
+   "A": 8.0,
+   "S": 6.025,
+   "T": 10.0,
+   "I": 8.0,
+   "C": 8.0
+  },
+  "n_mostra": 9,
+  "water_body": "SARANDE",
+  "familja": "aluvional"
+ }
+]

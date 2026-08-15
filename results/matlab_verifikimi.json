@@ -1,0 +1,305 @@
+{
+  "rez01": {
+    "qeliza": 2.741908E+6,
+    "km2": 27419.08,
+    "max_abs_diff_vs_SAKTE": 0.0049999999999954525,
+    "di_min": 39,
+    "di_max": 204.05,
+    "vlera_te_dallueshme": 644,
+    "pjeset_klasave_pct": [
+      7.47,
+      49.41,
+      11.98,
+      25.13,
+      6.01
+    ],
+    "qeliza_mbi_prag": 300,
+    "profile_unike": 13566
+  },
+  "rez02": {
+    "profile_unike": 13566,
+    "sv_kombetar": [
+      428.498,
+      373.035,
+      284.894,
+      277.739,
+      258.229,
+      223.462,
+      167.065
+    ],
+    "rang_kombetar": 7,
+    "ev_footprint_62": [
+      10.2828,
+      3.4833,
+      1.6345,
+      1.144,
+      0.7322,
+      0.0421,
+      0.0004
+    ],
+    "ev_aluvional": [
+      7.241282,
+      1.705432,
+      1.197954,
+      0.742651,
+      0.331225,
+      0,
+      -0
+    ],
+    "rang_aluvional": 5,
+    "kernel1": [
+      0,
+      -0.35,
+      -0.33,
+      -0,
+      0,
+      -0.02,
+      0.88
+    ],
+    "kernel2": [
+      -0,
+      0.57,
+      -0.82,
+      -0,
+      0,
+      0.04,
+      -0.08
+    ],
+    "max_C_per_A": 8,
+    "max_R_per_A": 6,
+    "pct_modal_AC": 97.9,
+    "hiperplane": 49547,
+    "zaslavsky_log10": 25.31,
+    "profile_mbi_prag": 3,
+    "km2_mbi_prag": 3,
+    "marzh_min_pozitiv": 0.0049999999999954525,
+    "marzh_median_pond": 7.0500000000000114,
+    "marzh_mes_pond": 7.71
+  },
+  "rez03": {
+    "n_draws": 6400,
+    "rhat_max": 1.011,
+    "sigma_mediana": 6.83,
+    "sigma_ci95": [
+      5.68,
+      8.45
+    ],
+    "aluvional": {
+      "mediana": [
+        2.9,
+        4.25,
+        3.57,
+        1.17,
+        3.64,
+        2.11,
+        3.48
+      ],
+      "ci_lo": [
+        0.31,
+        0.43,
+        0.25,
+        0.05,
+        0.88,
+        0.14,
+        0.26
+      ],
+      "ci_hi": [
+        6.85,
+        10.75,
+        10.31,
+        4.11,
+        7.23,
+        5.1,
+        10.16
+      ]
+    },
+    "karbonatik": {
+      "mediana": [
+        2.86,
+        2.92,
+        2.42,
+        2.53,
+        2.03,
+        4.21,
+        2.33
+      ],
+      "ci_lo": [
+        0.27,
+        0.34,
+        0.14,
+        0.16,
+        0.24,
+        0.43,
+        0.2
+      ],
+      "ci_hi": [
+        10.12,
+        9.42,
+        8.37,
+        9.73,
+        6.67,
+        11.9,
+        8.06
+      ]
+    },
+    "magmatik": {
+      "mediana": [
+        2.88,
+        2.89,
+        2.34,
+        2.72,
+        1.92,
+        4.82,
+        2.21
+      ],
+      "ci_lo": [
+        0.3,
+        0.29,
+        0.16,
+        0.16,
+        0.21,
+        0.52,
+        0.19
+      ],
+      "ci_hi": [
+        9.37,
+        9.38,
+        8.16,
+        10.37,
+        5.87,
+        11.73,
+        7.22
+      ]
+    },
+    "flish_argjile": {
+      "mediana": [
+        3.22,
+        2.58,
+        2.05,
+        3.15,
+        1.68,
+        5.18,
+        1.9
+      ],
+      "ci_lo": [
+        0.28,
+        0.19,
+        0.11,
+        0.22,
+        0.11,
+        0.55,
+        0.13
+      ],
+      "ci_hi": [
+        10.39,
+        8.6,
+        7.13,
+        10.48,
+        5.38,
+        13.32,
+        6.27
+      ]
+    },
+    "cv_rmse": 7.11,
+    "sd_y_aluvional": 6.54
+  },
+  "rez04": {
+    "draws": 3000,
+    "P_mesatare": 0.713,
+    "mbi_090_pct": 9.6,
+    "nen_070_pct": 47.5,
+    "modal_ndryshe_nga_konsensusi_pct": 14.9,
+    "nen_070_aluvional": 68.5,
+    "modal_ndryshe_aluvional_pct": 48.1,
+    "nen_070_karbonatik": 95.2,
+    "nen_070_magmatik": 36,
+    "nen_070_flish_argjile": 24,
+    "harta_te_dallueshme": 3000,
+    "paqendrueshmeria_mes_pct": 38.2,
+    "paqendrueshmeria_iqr": [
+      27.5,
+      47.8
+    ],
+    "shkelje_kufiri_pct": 0,
+    "spearman_raw": 0.654,
+    "spearman_standardizuar": 0.884
+  },
+  "rez05": {
+    "vlera_te_arritura": 569,
+    "pjeset_zyrtare_pct": [
+      7.47,
+      49.41,
+      11.98,
+      25.13,
+      6.01
+    ],
+    "d1": {
+      "pragjet": [
+        54.755,
+        87.275,
+        123.275,
+        158.3
+      ],
+      "marzhi_min": 0.225,
+      "pjeset_e_reja_pct": [
+        7.47,
+        48.96,
+        12.31,
+        25.23,
+        6.04
+      ],
+      "zhvendosja_max_pp": 0.45
+    },
+    "d2": {
+      "pragjet": [
+        54.755,
+        87.275,
+        122.275,
+        155.3
+      ],
+      "marzhi_min": 0.225,
+      "pjeset_e_reja_pct": [
+        7.47,
+        48.96,
+        11.45,
+        25.44,
+        6.69
+      ],
+      "zhvendosja_max_pp": 0.68
+    },
+    "d5": {
+      "pragjet": [
+        51.755,
+        83.275,
+        120.275,
+        155.3
+      ],
+      "marzhi_min": 0.225,
+      "pjeset_e_reja_pct": [
+        5.15,
+        49.47,
+        12.16,
+        26.53,
+        6.69
+      ],
+      "zhvendosja_max_pp": 2.31
+    }
+  },
+  "rez06": {
+    "baza_pavendosur": [
+      0.6853,
+      0.9515,
+      0.3604,
+      0.2397
+    ],
+    "karbonatik": 2.5,
+    "flish_argjile": 11,
+    "aluvional": 36.1
+  },
+  "rez07": {
+    "fig2_profile_mostruar": 28,
+    "fig2_segmente": 50,
+    "fig2_vija_mbi_prag": 3
+  },
+  "matlab_version": "26.1.0.3276743 (R2026a) Update 3"
+}

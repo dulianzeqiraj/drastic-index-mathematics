@@ -1,0 +1,5 @@
+﻿Determinism check of the MATLAB reproduction package
+host: MICROSOFT-TEAMS | started: 2026-08-15 14:07:15
+run 1: wall 248 s | exit 0 | SHA256(results/matlab_verifikimi.json) = B77696A37AFB4CD3B2DDF7D825D0477A659390D4D77218CD6CFDA4C131896051
+run 2: wall 242 s | exit 0 | SHA256(results/matlab_verifikimi.json) = B77696A37AFB4CD3B2DDF7D825D0477A659390D4D77218CD6CFDA4C131896051
+RESULT: identical. The package is deterministic under its fixed seeds.

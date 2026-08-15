@@ -1,0 +1,13 @@
+# Rasters expanded from the shipped .gz on first run: regenerate with setup_data
+data/*.asc
+
+# MATLAB intermediates: regenerate with run_all
+results/*.mat
+
+# MATLAB and OS noise
+*.asv
+*.autosave
+slprj/
+.DS_Store
+Thumbs.db
+desktop.ini
