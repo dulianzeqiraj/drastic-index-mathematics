@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or its results, please cite it as below."
-title: "The mathematics of an index method: MATLAB reproduction package for groundwater vulnerability assessment as measurement, structure, geometry, inference, and decision"
+title: "MATLAB reproduction package for the national DRASTIC assessment of Albania: representation, identifiability, geometry, inference, and decision"
 authors:
   - family-names: "Beqiraj"
     given-names: "Arjan"
@@ -8,6 +8,7 @@ authors:
   - family-names: "Zeqiraj"
     given-names: "Dulian"
     affiliation: "Polytechnic University of Tirana"
+    orcid: "https://orcid.org/0000-0002-5305-3048"
 version: "1.0.0"
 date-released: "2026-08-15"
 repository-code: "https://github.com/dulianzeqiraj/drastic-index-mathematics"
@@ -24,7 +25,7 @@ keywords:
   - Albania
 references:
   - type: article
-    title: "The mathematics of an index method: groundwater vulnerability assessment as measurement, structure, geometry, inference, and decision"
+    title: "The national DRASTIC assessment of Albania: representation, identifiability, geometry, inference, and decision"
     authors:
       - family-names: "Beqiraj"
         given-names: "Arjan"

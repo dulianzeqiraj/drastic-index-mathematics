@@ -1,8 +1,8 @@
-# The mathematics of an index method
+# The national DRASTIC assessment of Albania
 
-MATLAB reproduction package for the manuscript *The mathematics of an index
-method: groundwater vulnerability assessment as measurement, structure,
-geometry, inference, and decision* (A. Beqiraj and D. Zeqiraj).
+MATLAB reproduction package for the manuscript *The national DRASTIC
+assessment of Albania: representation, identifiability, geometry, inference,
+and decision* (A. Beqiraj and D. Zeqiraj).
 
 One command re-derives every statistical, geometric and decision result of the
 paper, and draws three of its figures, from the archived inputs shipped here.
