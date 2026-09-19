@@ -1,3 +1,7 @@
+
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 function setup_data()
 % Decompress the archived rating rasters shipped with the repository.
 % The grids are stored gzipped (3.2 MB instead of 201 MB); this expands any

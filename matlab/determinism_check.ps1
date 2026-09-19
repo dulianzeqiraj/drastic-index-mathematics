@@ -3,6 +3,9 @@
 # survives an interruption. Run ONE MATLAB instance at a time: under a single-seat
 # licence a second instance fails to start and the check reports a spurious mismatch.
 # Usage: powershell -NoProfile -ExecutionPolicy Bypass -File matlab/determinism_check.ps1
+#
+# A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+# Polytechnic University of Tirana. MIT licence, see LICENSE.
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repo = Split-Path -Parent $here
 $res = Join-Path $repo 'results'
@@ -15,7 +18,12 @@ if (-not (Test-Path $res)) { New-Item -ItemType Directory -Force $res | Out-Null
 "host: $env:COMPUTERNAME | started: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" | Out-File -Encoding utf8 -Append $out
 $hashes = @()
 foreach ($run in 1, 2) {
-    Get-ChildItem $res -Filter 'm0*_rez.mat' -ErrorAction SilentlyContinue | Remove-Item -Force
+    Get-ChildItem $res -Filter 'm*_rez.mat' -ErrorAction SilentlyContinue | Remove-Item -Force
+    foreach ($f in 'm06_dense.mat', 'm10_chains.mat', 'voi_dense.json', 'cv_auc.json',
+                   'diagnostics.json', 'fk_check.json') {
+        $fp = Join-Path $res $f
+        if (Test-Path $fp) { Remove-Item $fp -Force }
+    }
     if (Test-Path $json) { Remove-Item $json -Force }
     $sw = [Diagnostics.Stopwatch]::StartNew()
     & $matlab -sd $here -batch "run_all" | Out-File -Encoding utf8 (Join-Path $res "run_all_log_run$run.txt")

@@ -1,3 +1,7 @@
+
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 function out = run_chain_hier(iters, burn, seed, Xc, y, se2, fam, F, d, WD, ybar, sigma0)
 % One component-wise Metropolis chain with step adaptation during burn-in,
 % thinned by 10 after burn-in. Mirrors the archived Python sampler.

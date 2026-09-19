@@ -4,6 +4,9 @@
 % the A -> (R, C) coupling, the threshold hyperplane count, the Zaslavsky
 % bound, and the consensus-weight margins.
 % Requires: profilet.mat (from m01), kalibrimi_62_pika.json.
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 
 [DATA, RES] = paths_repo();
 W = [5 4 3 2 1 5 3];

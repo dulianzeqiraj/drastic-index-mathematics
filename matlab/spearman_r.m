@@ -1,3 +1,7 @@
+
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 function r = spearman_r(a, b)
 % Spearman rank correlation with average ranks for ties (base MATLAB only).
 ra = tied_rank(a(:));

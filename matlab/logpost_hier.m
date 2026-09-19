@@ -1,3 +1,7 @@
+
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 function lp = logpost_hier(th, Xc, y, se2, fam, F, d, WD, ybar)
 % Log-posterior of the hierarchical DRASTIC weight model (eqs. 13-15 of the
 % manuscript): Gaussian observation law with station-specific variance,

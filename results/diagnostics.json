@@ -1,0 +1,19 @@
+{
+  "chains": 4,
+  "draws_per_chain": 1600,
+  "draws_total": 6400,
+  "rhat_plain_max": 1.011,
+  "rhat_split_max": 1.045,
+  "rhat_split_worst": "log tau[1]",
+  "ess_weights_min": 631,
+  "ess_weights_max": 6400,
+  "ess_weights_median": 1042,
+  "ess_alluvial_min": 733,
+  "ess_alluvial_max": 6400,
+  "ess_alluvial_median": 1448,
+  "ess_intercepts_min": 4341,
+  "ess_mu_min": 405,
+  "ess_tau_min": 137,
+  "ess_min": 137,
+  "ess_min_at": "log tau[6]"
+}

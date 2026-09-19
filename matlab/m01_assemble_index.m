@@ -3,6 +3,9 @@
 % and verifies it bit for bit against the archived exact index SAKTE_DI_100m.asc.
 % Outputs: profilet.mat (mask, rates, DI grid, unique profiles with cell counts)
 % and the m01 fields of matlab_verifikimi.json.
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 
 [DATA, RES] = paths_repo();
 PARAMS = 'DRASTIC';

@@ -4,6 +4,9 @@
 % undecided shares, chamber distinctness, draw-pair map instability, and
 % the margin-probability bridge (standardized margin, Chebyshev bound).
 % Requires: profilet.mat (m01), bayes_draws.mat (m03).
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 
 W = [5 4 3 2 1 5 3];
 THR = [55 90 125 160];

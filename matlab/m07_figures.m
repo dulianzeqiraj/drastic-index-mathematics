@@ -4,6 +4,9 @@
 %   fig2_arrangement_slice.png  2D section of the threshold hyperplane arrangement
 %   fig3_probability_field.png  posterior modal class and its probability, national grid
 % Requires: profilet.mat (m01), m04_fig.mat (m04).
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 
 [~, RES, FIG] = paths_repo();
 W = [5 4 3 2 1 5 3];

@@ -1,0 +1,18 @@
+{
+  "n_wells": 180,
+  "n_on_valid_cell": 167,
+  "pearson": -0.1823,
+  "spearman": -0.0771,
+  "mean_abs_diff": 19.14,
+  "mean_signed_diff_national_minus_local": -12.03,
+  "local_range": [
+    87,
+    189
+  ],
+  "national_range": [
+    45,
+    145
+  ],
+  "local_mean": 138.83,
+  "national_mean": 126.8
+}

@@ -1,3 +1,7 @@
+
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 function k = klasa_di(x, c)
 % DRASTIC class from index value(s): class k iff c(k-1) <= x < c(k).
 % Matches the convention of the recovered national map (thresholds inclusive below).

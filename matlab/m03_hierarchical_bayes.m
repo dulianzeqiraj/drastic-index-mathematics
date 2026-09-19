@@ -5,6 +5,9 @@
 % Then: sum-23 posterior summaries per family, sigma posterior, a 3,000-draw
 % subsample for deployment, and the 8-fold alluvial cross-validation.
 % Requires: kalibrimi_62_pika.json.
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 
 [DATA, RES] = paths_repo();
 WD = [5 4 3 2 1 5 3]';

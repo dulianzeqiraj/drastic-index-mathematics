@@ -7,6 +7,9 @@
 % chosen subject to holding the cumulative area share below the threshold
 % within delta/2 of its official value, which enforces every class share
 % within delta (each class share is a difference of two cumulative shares).
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 
 [DATA, RES] = paths_repo();
 THR = [55 90 125 160];

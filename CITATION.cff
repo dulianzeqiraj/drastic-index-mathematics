@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or its results, please cite it as below."
-title: "MATLAB reproduction package for the national DRASTIC assessment of Albania: representation, identifiability, geometry, inference, and decision"
+title: "MATLAB reproduction package for the national DRASTIC assessment of Albania: representation, identifiability, geometry, inference, decision, and the statistical model behind the index"
 authors:
   - family-names: "Beqiraj"
     given-names: "Arjan"
@@ -31,7 +31,15 @@ references:
         given-names: "Arjan"
       - family-names: "Zeqiraj"
         given-names: "Dulian"
-    notes: "The manuscript this package reproduces. [AUTHOR DECISION: journal, year and DOI once known.]"
+    notes: "The theory manuscript this package reproduces."
+  - type: article
+    title: "DRASTIC as a statistical model: a complete probabilistic formulation of national groundwater vulnerability assessment, with hierarchical Bayesian weight inference, posterior class probabilities, and preposterior monitoring design"
+    authors:
+      - family-names: "Beqiraj"
+        given-names: "Arjan"
+      - family-names: "Zeqiraj"
+        given-names: "Dulian"
+    notes: "The model manuscript this package reproduces."
   - type: article
     title: "DRASTIC: A standardized system for evaluating ground water pollution potential using hydrogeologic settings"
     authors:

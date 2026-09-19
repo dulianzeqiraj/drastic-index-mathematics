@@ -1,3 +1,7 @@
+
+%
+% A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
+% Polytechnic University of Tirana. MIT licence, see LICENSE.
 function v = pctl(x, p)
 % Percentile with linear interpolation (same convention as numpy.percentile).
 % x: vector; p: scalar or vector of percentages in [0, 100].

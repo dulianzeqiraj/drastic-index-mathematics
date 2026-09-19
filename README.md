@@ -1,20 +1,28 @@
 # The national DRASTIC assessment of Albania
 
-MATLAB reproduction package for the manuscript *The national DRASTIC
-assessment of Albania: representation, identifiability, geometry, inference,
-and decision* (A. Beqiraj and D. Zeqiraj).
+MATLAB reproduction package for two manuscripts of A. Beqiraj and D. Zeqiraj
+on the national DRASTIC assessment of Albania:
 
-One command re-derives every statistical, geometric and decision result of the
-paper, and draws three of its figures, from the archived inputs shipped here.
+- *The national DRASTIC assessment of Albania: representation, identifiability,
+  geometry, inference, and decision* (the theory manuscript), and
+- *DRASTIC as a statistical model: a complete probabilistic formulation of
+  national groundwater vulnerability assessment, with hierarchical Bayesian
+  weight inference, posterior class probabilities, and preposterior monitoring
+  design* (the model manuscript).
+
+They share one pipeline and one set of archived inputs, so they share one
+package. One command re-derives every statistical, geometric and decision
+result of both, and draws their figures, from the inputs shipped here.
 
 ```matlab
 cd matlab
 run_all
 ```
 
-Base MATLAB, no toolboxes. About four minutes on a desktop CPU. Inputs expand
-themselves from the gzipped grids in `data/` on the first run; outputs land in
-`results/`.
+Base MATLAB, no toolboxes. About four minutes for the original chain on a
+desktop CPU, and about twenty minutes with the revision stages, most of that in
+the forty rehearsals of the preposterior analysis. Inputs expand themselves from
+the gzipped grids in `data/` on the first run; outputs land in `results/`.
 
 ## What it computes
 
@@ -26,11 +34,25 @@ themselves from the gzipped grids in `data/` on the first run; outputs land in
 | `m04_deployment.m` | the national class-probability field, the count of distinct class maps across draws, the draw-pair map instability, and the margin-probability bridge with its Chebyshev bound |
 | `m05_thresholds.m` | the max-margin threshold redesign at tolerances of 1, 2 and 5 percentage points |
 | `m06_voi.m` | the preposterior value of ten new monitoring stations, by aquifer family |
-| `m07_figures.m` | Figures 1 to 3 of the manuscript |
+| `m07_figures.m` | Figures 1 to 3 of the theory manuscript |
+| `m06_voi_dense.m` | the same preposterior analysis at forty rehearsals per family, all four families, with the Monte Carlo standard error of each value |
+| `m10_save_chains.m` | the four chains saved separately, so the diagnostics can be recomputed |
+| `m11_cv_auc.m` | discrimination against measured nitrate: the area under the ROC curve, fitted and under 8-fold cross-validation, against the same index under the 1987 weights |
+| `m12_diagnostics.m` | the potential scale reduction in its whole-chain and split-chain forms, and the bulk effective sample size of every component |
+| `m13_fk_check.m` | the local Fushe-Kuqe map against the national recovered index at the wells |
+| `m08_figures_model.m`, `m09_figures_model_b.m`, `m14_figure_voi.m` | Figures 1 to 4 of the model manuscript |
 | `run_all.m` | the whole chain, then `collect_results` writes `results/matlab_verifikimi.json` |
 
 Helpers: `read_asc`, `pctl`, `spearman_r`, `klasa_di`, `logpost_hier`,
-`run_chain_hier`, `setup_data`, `paths_repo`.
+`run_chain_hier`, `setup_data`, `paths_repo`. Rank statistics average over ties
+throughout, because the rating alphabets are finite and the index takes repeated
+values.
+
+`m08_figures_model.m`, `m09_figures_model_b.m` and `m13_fk_check.m` read the
+archived national outputs of the original Python pipeline, which are not
+redistributed here; the path to that archive is set at the top of each of those
+three files and has to be pointed at a local copy. Everything else runs from
+`data/`.
 
 ## Determinism
 
@@ -43,13 +65,18 @@ powershell -NoProfile -ExecutionPolicy Bypass -File matlab/determinism_check.ps1
 ```
 
 The outcome is written to `results/determinism_check.txt` with both run logs
-beside it. On the machine of record, two runs from scratch (248 s and 242 s)
-produced the digest
+beside it. For the original seven-stage chain, two runs from scratch (248 s and
+242 s) produced the digest
 `B77696A37AFB4CD3B2DDF7D825D0477A659390D4D77218CD6CFDA4C131896051`, which is
 also the digest the package produced before the repository was assembled, so
-the gzipped grids and the path rearrangement changed no number. Runtimes are printed to the logs and deliberately kept out of the
-verification file, since a timing is not a function of the inputs and would
-break the very check it appeared in.
+the gzipped grids and the path rearrangement changed no number. The verification
+file now carries four further blocks from the revision stages, so that digest no
+longer applies to it: with those stages in, two runs from scratch (1181 s and
+1169 s) produce
+`A3F1C6DFD97E3E7893CDAAE32F7757A7C3A50CD9D1E093C8B7A5F47CA8B3C7F1`. Runtimes are
+printed to the logs and deliberately kept out of the verification file, since a
+timing is not a function of the inputs and would break the very check it
+appeared in.
 
 Run one MATLAB instance at a time: under a single-seat licence a second
 instance fails to start, and the check then reports a spurious mismatch.

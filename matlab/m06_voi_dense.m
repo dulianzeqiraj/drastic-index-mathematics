@@ -1,12 +1,16 @@
-% m06_voi
-% Preposterior value of monitoring: for each candidate family, invent 10
-% stations at area-weighted profiles of that family, simulate their responses
-% from the current posterior's hypermean with sigma-level noise, refit the
-% model, and measure the reduction of the undecided share (P_modal < 0.7).
-% Averaged over rehearsals. Requires: profilet.mat, bayes_draws.mat, m04_profile.mat.
+% m06_voi_dense
+% Preposterior value of ten new monitoring stations, for each of the four aquifer
+% families, over REPS rehearsals apiece. A rehearsal draws ten station profiles from
+% the area-weighted profile law of the family, draws their responses from the current
+% posterior predictive, refits the hierarchy, redeploys, and measures how much of the
+% family stops being undecided. The spread over rehearsals is wide, so the mean is
+% reported with its Monte Carlo standard error rather than on its own.
+% Requires: profilet.mat, bayes_draws.mat, m04_profile.mat.
 %
 % A. Beqiraj and D. Zeqiraj, Faculty of Geology and Mining,
 % Polytechnic University of Tirana. MIT licence, see LICENSE.
+
+REPS = 40;
 
 [DATA, RES] = paths_repo();
 WD = [5 4 3 2 1 5 3]';
@@ -38,19 +42,21 @@ baza = zeros(1, F);
 for f = 1:F
     baza(f) = undecided_share(U3, f, famu, Runiq, counts, THR);
 end
-fprintf('base undecided: %s\n', mat2str(round(baza, 3)));
+fprintf('base undecided: %s\n', mat2str(round(baza, 4)));
 
-rng(77, 'twister');
-rez06 = struct();
-rez06.baza_pavendosur = round(baza, 4);
-scen = {2, 'karbonatik', 3; 4, 'flish_argjile', 3; 1, 'aluvional', 2};
-mu_hat = squeeze(mean(mean(U3, 1), 2));      % hypermean of unnormalized u
-for s = 1:size(scen, 1)
-    f_add = scen{s, 1};
-    emri = scen{s, 2};
-    reps = scen{s, 3};
-    reduks = zeros(1, reps);
-    for rep = 1:reps
+rez = struct();
+rez.reps = REPS;
+rez.baza_pavendosur = round(baza, 4);
+rez.familjet = FAMS;
+mu_hat = squeeze(mean(mean(U3, 1), 2));
+allred = zeros(F, REPS);
+tvoi = tic;
+for f_add = 1:F
+    emri = FAMS{f_add};
+    reduks = zeros(1, REPS);
+    for rep = 1:REPS
+        % seeds disjoint across families: 100000 + 1000*family + replicate
+        rng(100000 + 1000*f_add + rep, 'twister');
         sel = find(famu == f_add);
         pw = counts(sel) / sum(counts(sel));
         pick = sel(weighted_draw(pw, 10));
@@ -60,7 +66,7 @@ for s = 1:size(scen, 1)
         se2 = [se0.^2; ones(10, 1)];
         fam = [fam0; f_add * ones(10, 1)];
         Xc = X - rbar;
-        ch = run_chain_hier(9000, 4000, 500 + 10*f_add + rep, Xc, y, se2, fam, ...
+        ch = run_chain_hier(9000, 4000, 200000 + 1000*f_add + rep, Xc, y, se2, fam, ...
                             F, d, WD, mean(y), 6.0);
         nd = size(ch, 1);
         Un = zeros(nd, F, d);
@@ -69,13 +75,27 @@ for s = 1:size(scen, 1)
         end
         u_new = undecided_share(Un, f_add, famu, Runiq, counts, THR);
         reduks(rep) = baza(f_add) - u_new;
-        fprintf('  %s rep %d: %.3f -> %.3f\n', emri, rep, baza(f_add), u_new);
+        fprintf('  %-14s rep %3d/%d: %.4f -> %.4f  (%.1f pp)  [%.0f s]\n', ...
+                emri, rep, REPS, baza(f_add), u_new, 100*reduks(rep), toc(tvoi));
     end
-    rez06.(emri) = round(100 * mean(reduks), 1);
-    fprintf('%s +10 stations: mean reduction %.1f pp\n', emri, rez06.(emri));
+    allred(f_add, :) = reduks;
+    m = 100 * mean(reduks);
+    s = 100 * std(reduks);
+    se = s / sqrt(REPS);
+    rez.(emri) = struct('mesatare_pp', round(m, 2), 'sd_pp', round(s, 2), ...
+                        'se_pp', round(se, 2), ...
+                        'ci95_pp', round([m - 1.96*se, m + 1.96*se], 2), ...
+                        'min_pp', round(100*min(reduks), 2), ...
+                        'max_pp', round(100*max(reduks), 2));
+    fprintf('%-14s +10 stations: %.2f pp  (sd %.2f, se %.2f, 95%% CI %.2f to %.2f)\n', ...
+            emri, m, s, se, m - 1.96*se, m + 1.96*se);
 end
-save(fullfile(RES, 'm06_rez.mat'), 'rez06');
-fprintf('m06 done.\n');
+rez.reduktimet_pp = round(100 * allred, 3);
+save(fullfile(RES, 'm06_dense.mat'), 'rez', 'allred');
+fid = fopen(fullfile(RES, 'voi_dense.json'), 'w');
+fprintf(fid, '%s', jsonencode(rez, 'PrettyPrint', true));
+fclose(fid);
+fprintf('m06_voi_dense done in %.0f s.\n', toc(tvoi));
 
 function u = undecided_share(Udraws, f, famu, Runiq, counts, THR)
 sel = famu == f;
@@ -95,7 +115,6 @@ u = sum((Pm < 0.7) .* w) / sum(w);
 end
 
 function idx = weighted_draw(p, m)
-% m indices drawn with replacement with probabilities p (column vector)
 cp = cumsum(p(:)) / sum(p);
 idx = zeros(m, 1);
 for t = 1:m

@@ -1,0 +1,27 @@
+{
+  "k_folds": 8,
+  "n": 62,
+  "nitrate": {
+    "min": 0.42,
+    "max": 24.74,
+    "median": 4.38,
+    "above10": 14
+  },
+  "spearman_fitted": 0.115,
+  "spearman_cv": -0.006,
+  "spearman_delphi": -0.017,
+  "thr_10mgL": {
+    "threshold": 10,
+    "n_positive": 14,
+    "auc_fitted": 0.565,
+    "auc_cv": 0.427,
+    "auc_delphi": 0.485
+  },
+  "thr_upper_quartile": {
+    "threshold": 8.54,
+    "n_positive": 15,
+    "auc_fitted": 0.583,
+    "auc_cv": 0.412,
+    "auc_delphi": 0.501
+  }
+}
