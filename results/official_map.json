@@ -1,0 +1,123 @@
+{
+  "qeliza": 2.741908E+6,
+  "profile_unike": 13566,
+  "delphi": {
+    "di_min": 39,
+    "di_max": 204.05,
+    "pjeset_pct": [
+      7.47,
+      49.41,
+      11.98,
+      25.13,
+      6.01
+    ]
+  },
+  "efektiv": {
+    "di_min": 36.84,
+    "di_max": 202.9115,
+    "di_max_teorik": 205.31,
+    "pjeset_pct": [
+      6.66,
+      50.95,
+      25.75,
+      15.71,
+      0.92
+    ]
+  },
+  "raporti_XI3_pct": [
+    2.29,
+    53.84,
+    20.14,
+    20.14,
+    3.59
+  ],
+  "delphi_vs_efektiv": {
+    "ndryshon_pct": 21.62,
+    "ngrihet_pct": 1.04,
+    "ulet_pct": 20.58
+  },
+  "arkivi": {
+    "qeliza_krahasuara": 2.741908E+6,
+    "delphi": {
+      "njesoj_pct": 78.5,
+      "ngrihet_pct": 12.9,
+      "ulet_pct": 8.6,
+      "ndryshon_pct": 21.5,
+      "nje_klase_pct_e_ndryshimeve": 91.4,
+      "dy_klase_pct_e_ndryshimeve": 8.6,
+      "max_abs_klase": 2,
+      "ndryshon_dhe_pavendosur_070_pct": 18.2,
+      "ndryshon_dhe_vendosur_070_pct": 3.3,
+      "ndryshon_dhe_sigurt_090_pct": 0.5,
+      "njesoj_dhe_sigurt_090_pct": 9.3
+    },
+    "efektiv": {
+      "njesoj_pct": 75.9,
+      "ngrihet_pct": 23.9,
+      "ulet_pct": 0.1,
+      "ndryshon_pct": 24.1,
+      "nje_klase_pct_e_ndryshimeve": 92.3,
+      "dy_klase_pct_e_ndryshimeve": 7.7,
+      "max_abs_klase": 2,
+      "ndryshon_dhe_pavendosur_070_pct": 20.8,
+      "ndryshon_dhe_vendosur_070_pct": 3.3,
+      "ndryshon_dhe_sigurt_090_pct": 0.5,
+      "njesoj_dhe_sigurt_090_pct": 9.3
+    }
+  },
+  "prop6": {
+    "A_modal": 0.7129,
+    "delphi": {
+      "nu_ndryshon": 14.89,
+      "nu_pD_nen_gjysem": 17.2,
+      "A_fiks": 0.6615,
+      "hendeku_pp": 5.14,
+      "nu_ndryshon_vendosur_alfa_70": 4.01,
+      "nu_pD_nen_1_minus_alfa_70": 6.86,
+      "nu_ndryshon_vendosur_alfa_90": 0.46,
+      "nu_pD_nen_1_minus_alfa_90": 3.17,
+      "kufiri_i_mban": true,
+      "kufiri_070_mban": true,
+      "kufiri_090_mban": true,
+      "identiteti_mban": true,
+      "hendeku_nen_nu": true
+    },
+    "efektiv": {
+      "nu_ndryshon": 32.39,
+      "nu_pD_nen_gjysem": 32.78,
+      "A_fiks": 0.6256,
+      "hendeku_pp": 8.73,
+      "nu_ndryshon_vendosur_alfa_70": 4.24,
+      "nu_pD_nen_1_minus_alfa_70": 11.41,
+      "nu_ndryshon_vendosur_alfa_90": 0.46,
+      "nu_pD_nen_1_minus_alfa_90": 3.21,
+      "kufiri_i_mban": true,
+      "kufiri_070_mban": true,
+      "kufiri_090_mban": true,
+      "identiteti_mban": true,
+      "hendeku_nen_nu": true
+    },
+    "sipas_familjes": {
+      "aluvional": {
+        "nu_ndryshon": 48.1,
+        "A_delphi": 0.431,
+        "A_modal": 0.637
+      },
+      "karbonatik": {
+        "nu_ndryshon": 1.3,
+        "A_delphi": 0.585,
+        "A_modal": 0.586
+      },
+      "magmatik": {
+        "nu_ndryshon": 8,
+        "A_delphi": 0.748,
+        "A_modal": 0.764
+      },
+      "flish_argjile": {
+        "nu_ndryshon": 8.2,
+        "A_delphi": 0.756,
+        "A_modal": 0.773
+      }
+    }
+  }
+}

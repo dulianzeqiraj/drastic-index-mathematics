@@ -37,10 +37,13 @@ embedded lossless strips for the two raster sheets, after a stored-row
 inversion was detected bitwise; georeferencing was by silhouette matching
 against the national mask, with intersection over union 0.964 to 0.970. The
 recovered index spans 39.0 to 204.1 against the published 36.68 to 205.31.
-Two legend anomalies are recorded rather than smoothed: the topography sheet
-prints score 8 where the report's rating table prints 9, and the recharge sheet
-uses a rating set the published recharge tables do not generate. Appendix B of
-the manuscript gives the full account.
+One legend anomaly is recorded rather than smoothed: the recharge sheet uses a
+rating set the published recharge tables do not generate. The topography
+sheet prints score 8 for the 2 to 6 percent slope class, which is the value of
+the report's applied rating table (its Table VII.6); only the report's summary
+of the generic DRASTIC scheme (its Table VI.6) prints the Aller value 9, so
+this is not an anomaly of the sheet. Appendix B of the manuscript gives the
+full account.
 
 The calibration table combines 24 wells of the Fushe-Kuqe coastal aquifer with
 38 stations of the national groundwater monitoring network, all rated through
